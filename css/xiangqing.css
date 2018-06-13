@@ -1,0 +1,142 @@
+body{
+    font-size: 16px;
+    background: #f5f5f5;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background: #53463c;
+    padding: .54rem .4rem .4rem;
+}
+.part_1{
+    display: flex;
+    justify-content: space-between;
+}
+.part_1>div:first-child img{
+    width: .57rem;
+}
+.part_1>div:nth-child(2) img{
+    width: .66rem;
+}
+.part_2{
+    display: flex;
+    margin:  .4rem 0;
+
+}
+.part_2_1 img{
+    width: 3.3rem;
+}
+.part_2_2{
+    margin-left: .4rem;
+}
+.part_2_2>div:nth-child(1){
+    color: white;
+
+}
+.part_2_2>div:nth-child(2){
+    margin: .1rem 0;
+    color: white;
+    font-size: 0.2rem;
+}
+ .part_2_2>div:nth-child(3) img{
+    width: 2.4rem;
+}
+.part_2_2>div:nth-child(3){
+    color: #fbc50a;
+}
+.part_2_2>div:nth-child(4){
+    margin: .1rem 0;
+    font-size: .1rem;
+    color: #c9c4be;
+}
+.part_2_2>div:nth-child(5) img{
+   width:  .48rem;
+    vertical-align: middle;
+}
+.part_2_2>div:nth-child(5){
+    color: #c9c4be;
+    font-size: .4rem;
+}
+.part_2_2>div:nth-child(6){
+    margin: .1rem 0;
+    color: #c9c4be;
+    font-size: .4rem;
+}
+.part_2_2>div:nth-child(7){
+    margin: .1rem 0;
+    color: #c9c4be;
+    font-size: .4rem;
+}
+.part_3{
+    display: flex;
+    justify-content: space-between;
+}
+.part_3>div{
+    width: 4.8rem;
+    height: 1.05rem;
+    text-align: center;
+    line-height: 1.05rem;
+    background: #645b53;
+    border-radius: .2rem;
+}
+
+.part_3>div:first-child>img{
+    width: .44rem;
+    height: .38rem;
+    margin-right: .2rem;
+}
+.part_3>div:nth-child(2)>img{
+    width: .46rem;
+    margin-right: .2rem;
+}
+input[id="check"]{
+    display: none;
+}
+.hidden>div:nth-of-type(1){
+    display: none;}
+.hidden img{
+    width: .57rem;
+}
+.hidden>div:nth-of-type(2){
+    text-align: center;
+}
+input[id="check"]:checked+div{
+    display: block;
+}
+.input[id="check"]:checked~div>label> img{
+    transform: rotate(180deg);
+}
+article>section:nth-child(2){
+    padding:.4rem ;
+    background: white;
+    margin-top: .3rem;
+    display: flex;
+    align-items: flex-end;
+    overflow: auto;
+}
+article>section:nth-child(2)>div>p{
+    padding-bottom: .35rem ;
+}
+article>section:nth-child(2) img{
+    margin-right: .2rem;
+    width: 2.13rem;
+}
+article>section:nth-child(2)::-webkit-scrollbar{
+    display: none;
+}
+article{
+    margin-bottom: 1.48rem;
+}
+
+footer{
+    width: 100%;
+    height: 1.53rem;
+    text-align: center;
+    line-height: 1.53rem;
+    background: red;
+    position: fixed;
+    bottom: 0;
+}
+

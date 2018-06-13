@@ -1,0 +1,399 @@
+body{
+    font-size: 16px;
+    background: #f5f5f5;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+header{
+    padding: .4rem .38rem .4rem .48rem;
+    background: #d3413a;
+    font-size: .48rem;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+header>div:nth-child(2){
+    flex-grow: 1;
+}
+header>div:nth-child(1){
+    padding-right: .46rem;
+    margin-right: .48rem;
+    border-right: .02rem solid #b83832;
+}
+header>div:nth-child(1) img{
+    width: .62rem;
+    height: .56rem;
+}
+header img{
+   width: .66rem;
+}
+.part_1{
+    background: white;
+    padding: .4rem .4rem .3rem .43rem;
+}
+.part_1_t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .01rem solid #cccccc;
+    padding-bottom: .3rem;
+}
+.part_1_t>div:nth-child(1)>p:nth-child(1){
+    font-size: .5rem;
+    font-weight: 600;
+}
+.part_1_t>div:nth-child(1)>p:nth-child(2){
+    font-size: .36rem;
+    color: #707070;
+    margin-top: .3rem;
+}
+.part_1_t>div:nth-child(1)>p:nth-child(2)>span{
+    color: #dcdcdc;
+}
+.part_1_t>div:nth-child(2){
+    border-radius: .5rem;
+    font-size: .36rem;
+    color: #707070;
+    border: .02rem solid #cccccc;
+    padding: .1rem .3rem
+}
+.part_1_b{
+    display: flex;
+    justify-content: space-around;
+    font-size: .44rem;
+    margin-top: .36rem ;
+}
+.part_1_b>div{
+    display: flex;
+    align-items: center;
+}
+.part_1_b i{
+    margin-right: .3rem;
+}
+.part_1_b>div:nth-child(1)>i{
+    display: inline-block;
+    width: .46rem;
+    height: .43rem;
+    background: url("../img/sprite_app.png");
+    background-position:-1.43rem -5.08rem ;
+    background-size: 11.02rem 6.03rem;
+}
+.part_1_b>div:nth-child(2)>i{
+    display: inline-block;
+    width: .46rem;
+    height: .43rem;
+    background: url("../img/sprite_app.png");
+    background-position:-2.02rem -5.08rem ;
+    background-size: 11.02rem 6.03rem;
+}
+.part_1_b>div:nth-child(3)>i{
+    display: inline-block;
+    width: .46rem;
+    height: .43rem;
+    background: url("../img/sprite_app.png");
+    background-position:-2.63rem -5.08rem ;
+    background-size: 11.02rem 6.03rem;
+}
+.part_1_b>div:nth-child(4)>i{
+    display: inline-block;
+    width: .95rem;
+    height: .43rem;
+    background: url("../img/sprite_app.png");
+    background-position:-3.16rem -5.08rem ;
+    background-size: 11.02rem 6.03rem;
+}
+.part_2{
+    padding: 0 .6rem .36rem .3rem;
+}
+.part_2_t{
+    margin-bottom: .24rem;
+    text-align: center;
+}
+.part_2_t>img{
+   width:6.34rem;
+}
+.part_2_t>p{
+    font-size: .32rem;
+    margin-top: -.55rem;
+}
+.part_2_b_l{
+    background: #a9a9a9;
+   border-radius: .5rem;
+    padding: .2rem 0;
+    width: .48rem;
+    text-align: center;
+    color: #fbfbfb;
+    font-size: .24rem;
+    margin-top: .3rem;
+}
+.part_2_b_l>p:nth-child(5){
+    opacity: 0;
+}
+.part_2_b_l>p{
+    margin: .24rem 0;
+}
+.part_2_b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    width: 9.04rem;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+input[id="seat1"],input[id="seat2"],input[id="seat3"]
+,input[id="seat4"],input[id="seat5"],input[id="seat6"]
+,input[id="seat7"],input[id="seat8"],input[id="seat9"]
+,input[id="seat10"],input[id="seat11"],input[id="seat12"]
+,input[id="seat13"],input[id="seat14"],input[id="seat15"]
+,input[id="seat16"],input[id="seat17"],input[id="seat18"]
+,input[id="seat19"],input[id="seat20"],input[id="seat21"]
+,input[id="seat22"],input[id="seat23"],input[id="seat24"]
+,input[id="seat25"],input[id="seat26"],input[id="seat27"]
+,input[id="seat28"],input[id="seat29"],input[id="seat30"]
+,input[id="seat31"],input[id="seat32"],input[id="seat33"]
+,input[id="seat34"],input[id="seat35"],input[id="seat36"]
+,input[id="seat37"],input[id="seat38"],input[id="seat39"]
+,input[id="seat40"],input[id="seat41"],input[id="seat42"]
+,input[id="seat43"],input[id="seat44"],input[id="seat45"]
+,input[id="seat46"],input[id="seat47"],input[id="seat48"]
+,input[id="seat49"],input[id="seat50"],input[id="seat51"]
+,input[id="seat52"],input[id="seat53"],input[id="seat54"]
+,input[id="seat55"],input[id="seat56"],input[id="seat57"]
+,input[id="seat58"],input[id="seat59"],input[id="seat60"]
+,input[id="seat61"],input[id="seat62"],input[id="seat63"]
+,input[id="seat64"],input[id="seat65"],input[id="seat66"]
+,input[id="seat67"],input[id="seat68"],input[id="seat69"]
+,input[id="seat70"],input[id="seat71"],input[id="seat72"]
+,input[id="seat73"],input[id="seat74"],input[id="seat75"]
+,input[id="seat76"],input[id="seat77"],input[id="seat78"]
+,input[id="seat79"],input[id="seat80"],input[id="seat81"]
+,input[id="seat82"],input[id="seat83"],input[id="seat84"]
+,input[id="seat85"],input[id="seat86"],input[id="seat87"]
+,input[id="seat88"],input[id="seat89"],input[id="seat90"]
+,input[id="seat91"],input[id="seat92"],input[id="seat93"]
+,input[id="seat94"],input[id="seat95"],input[id="seat96"]
+,input[id="seat97"],input[id="seat98"],input[id="seat99"]
+,input[id="seat100"],input[id="seat101"],input[id="seat102"]
+,input[id="seat103"],input[id="seat104"],input[id="seat105"]
+,input[id="seat106"],input[id="seat107"],input[id="seat108"]
+,input[id="seat109"],input[id="seat110"],input[id="seat111"]
+,input[id="seat112"],input[id="seat113"],input[id="seat114"]
+,input[id="seat115"],input[id="seat116"],input[id="seat117"]
+,input[id="seat118"],input[id="seat119"],input[id="seat120"]
+,input[id="seat121"],input[id="seat122"],input[id="seat123"]
+,input[id="seat124"],input[id="seat125"],input[id="seat126"]
+,input[id="seat127"],input[id="seat128"],input[id="seat129"]
+,input[id="seat130"],input[id="seat131"],input[id="seat132"]
+,input[id="seat133"],input[id="seat134"],input[id="seat135"]
+,input[id="seat136"],input[id="seat137"],input[id="seat138"]
+,input[id="seat139"],input[id="seat140"],input[id="seat141"]
+,input[id="seat142"],input[id="seat143"],input[id="seat144"]
+,input[id="seat145"],input[id="seat146"],input[id="seat147"]
+,input[id="seat148"],input[id="seat149"],input[id="seat150"]
+,input[id="seat151"],input[id="seat152"],input[id="seat153"]
+,input[id="seat154"],input[id="seat155"],input[id="seat156"]
+,input[id="seat157"],input[id="seat158"],input[id="seat159"]
+,input[id="seat160"],input[id="seat161"],input[id="seat162"]
+,input[id="seat163"],input[id="seat164"],input[id="seat165"]
+,input[id="seat166"],input[id="seat167"],input[id="seat168"]
+,input[id="seat169"],input[id="seat170"],input[id="seat171"]
+,input[id="seat172"],input[id="seat173"],input[id="seat174"]
+,input[id="seat175"],input[id="seat176"],input[id="seat177"]
+,input[id="seat178"],input[id="seat179"],input[id="seat180"]
+
+{
+    display: none;
+}
+label>i{
+    display: inline-block;
+    width: .46rem;
+    height: .43rem;
+    background: url("../img/sprite_app.png");
+    background-position:-1.43rem -5.08rem ;
+    background-size: 11.02rem 6.03rem;
+}
+ul>li:nth-child(1)>span:nth-child(1) i{
+    opacity: 0;
+}
+ul>li:nth-child(6)>span:nth-child(7) i{
+    display: inline-block;
+    width: .46rem;
+    height: .43rem;
+    background: url("../img/sprite_app.png");
+    background-position:-2.02rem -5.08rem ;
+    background-size: 11.02rem 6.03rem;
+}
+ul>li:nth-child(6)>span:nth-child(8) i{
+    display: inline-block;
+    width: .46rem;
+    height: .43rem;
+    background: url("../img/sprite_app.png");
+    background-position:-2.02rem -5.08rem ;
+    background-size: 11.02rem 6.03rem;
+}
+ul>li:nth-child(6)>span:nth-child(10) i,ul>li:nth-child(6)>span:nth-child(11) i{
+    opacity: 0;
+}
+ul>li:nth-child(7)>span:nth-child(10) i,ul>li:nth-child(7)>span:nth-child(11) i{
+     opacity: 0;
+ }
+ul>li:nth-child(8)>span:nth-child(10) i,ul>li:nth-child(8)>span:nth-child(11) i{
+    opacity: 0;
+}
+ul>li:nth-child(9)>span:nth-child(10) i,ul>li:nth-child(9)>span:nth-child(11) i{
+    opacity: 0;
+}
+ul>li:nth-child(10)>span:nth-child(10) i,ul>li:nth-child(10)>span:nth-child(11) i{
+    opacity: 0;
+}
+ul>li:nth-child(11)>span:nth-child(10) i,ul>li:nth-child(11)>span:nth-child(11) i{
+    opacity: 0;
+}
+input[id="seat1"]:checked+label>i,input[id="seat2"]:checked+label>i,
+input[id="seat3"]:checked+label>i,input[id="seat4"]:checked+label>i,
+input[id="seat5"]:checked+label>i,input[id="seat6"]:checked+label>i,
+input[id="seat7"]:checked+label>i,input[id="seat8"]:checked+label>i,
+input[id="seat9"]:checked+label>i,input[id="seat10"]:checked+label>i,
+input[id="seat11"]:checked+label>i,input[id="seat12"]:checked+label>i,
+input[id="seat13"]:checked+label>i,input[id="seat14"]:checked+label>i,
+input[id="seat15"]:checked+label>i,input[id="seat16"]:checked+label>i,
+input[id="seat17"]:checked+label>i,input[id="seat18"]:checked+label>i,
+input[id="seat19"]:checked+label>i,input[id="seat20"]:checked+label>i,
+input[id="seat21"]:checked+label>i,input[id="seat22"]:checked+label>i,
+input[id="seat23"]:checked+label>i,input[id="seat24"]:checked+label>i,
+input[id="seat25"]:checked+label>i,input[id="seat26"]:checked+label>i,
+input[id="seat27"]:checked+label>i,input[id="seat28"]:checked+label>i,
+input[id="seat29"]:checked+label>i,input[id="seat30"]:checked+label>i,
+input[id="seat31"]:checked+label>i,input[id="seat32"]:checked+label>i,
+input[id="seat33"]:checked+label>i,input[id="seat34"]:checked+label>i,
+input[id="seat35"]:checked+label>i,input[id="seat36"]:checked+label>i,
+input[id="seat37"]:checked+label>i,input[id="seat38"]:checked+label>i,
+input[id="seat39"]:checked+label>i,input[id="seat40"]:checked+label>i,
+input[id="seat41"]:checked+label>i,input[id="seat42"]:checked+label>i,
+input[id="seat43"]:checked+label>i,input[id="seat44"]:checked+label>i,
+input[id="seat45"]:checked+label>i,input[id="seat46"]:checked+label>i,
+input[id="seat47"]:checked+label>i,input[id="seat48"]:checked+label>i,
+input[id="seat49"]:checked+label>i,input[id="seat50"]:checked+label>i,
+input[id="seat51"]:checked+label>i,input[id="seat52"]:checked+label>i,
+input[id="seat53"]:checked+label>i,input[id="seat54"]:checked+label>i,
+input[id="seat55"]:checked+label>i,input[id="seat56"]:checked+label>i,
+input[id="seat57"]:checked+label>i,input[id="seat58"]:checked+label>i,
+input[id="seat59"]:checked+label>i,input[id="seat60"]:checked+label>i,
+input[id="seat61"]:checked+label>i,input[id="seat62"]:checked+label>i,
+input[id="seat63"]:checked+label>i,input[id="seat64"]:checked+label>i,
+input[id="seat65"]:checked+label>i,input[id="seat66"]:checked+label>i,
+input[id="seat67"]:checked+label>i,input[id="seat68"]:checked+label>i,
+input[id="seat69"]:checked+label>i,input[id="seat70"]:checked+label>i,
+input[id="seat71"]:checked+label>i,input[id="seat72"]:checked+label>i,
+input[id="seat73"]:checked+label>i,input[id="seat74"]:checked+label>i,
+input[id="seat75"]:checked+label>i,input[id="seat76"]:checked+label>i,
+input[id="seat77"]:checked+label>i,input[id="seat78"]:checked+label>i,
+input[id="seat79"]:checked+label>i,input[id="seat80"]:checked+label>i,
+input[id="seat81"]:checked+label>i,input[id="seat82"]:checked+label>i,
+input[id="seat83"]:checked+label>i,input[id="seat84"]:checked+label>i,
+input[id="seat85"]:checked+label>i,input[id="seat86"]:checked+label>i,
+input[id="seat87"]:checked+label>i,input[id="seat88"]:checked+label>i,
+input[id="seat89"]:checked+label>i,input[id="seat90"]:checked+label>i,
+input[id="seat91"]:checked+label>i,input[id="seat92"]:checked+label>i,
+input[id="seat93"]:checked+label>i,input[id="seat94"]:checked+label>i,
+input[id="seat95"]:checked+label>i,input[id="seat96"]:checked+label>i,
+input[id="seat97"]:checked+label>i,input[id="seat98"]:checked+label>i,
+input[id="seat99"]:checked+label>i,input[id="seat100"]:checked+label>i,
+input[id="seat101"]:checked+label>i,input[id="seat102"]:checked+label>i,
+input[id="seat103"]:checked+label>i,input[id="seat104"]:checked+label>i,
+input[id="seat105"]:checked+label>i,input[id="seat106"]:checked+label>i,
+input[id="seat107"]:checked+label>i,input[id="seat108"]:checked+label>i,
+input[id="seat109"]:checked+label>i,input[id="seat110"]:checked+label>i,
+input[id="seat111"]:checked+label>i,input[id="seat112"]:checked+label>i,
+input[id="seat113"]:checked+label>i,input[id="seat114"]:checked+label>i,
+input[id="seat115"]:checked+label>i,input[id="seat116"]:checked+label>i,
+input[id="seat117"]:checked+label>i,input[id="seat118"]:checked+label>i,
+input[id="seat119"]:checked+label>i,input[id="seat120"]:checked+label>i,
+input[id="seat121"]:checked+label>i,input[id="seat122"]:checked+label>i,
+input[id="seat123"]:checked+label>i,input[id="seat124"]:checked+label>i,
+input[id="seat125"]:checked+label>i,input[id="seat126"]:checked+label>i,
+input[id="seat127"]:checked+label>i,input[id="seat128"]:checked+label>i,
+input[id="seat129"]:checked+label>i,input[id="seat130"]:checked+label>i,
+input[id="seat131"]:checked+label>i,input[id="seat132"]:checked+label>i,
+input[id="seat133"]:checked+label>i,input[id="seat134"]:checked+label>i,
+input[id="seat135"]:checked+label>i,input[id="seat136"]:checked+label>i,
+input[id="seat137"]:checked+label>i,input[id="seat138"]:checked+label>i,
+input[id="seat139"]:checked+label>i,input[id="seat140"]:checked+label>i,
+input[id="seat141"]:checked+label>i,input[id="seat142"]:checked+label>i,
+input[id="seat143"]:checked+label>i,input[id="seat144"]:checked+label>i,
+input[id="seat145"]:checked+label>i,input[id="seat146"]:checked+label>i,
+input[id="seat147"]:checked+label>i,input[id="seat148"]:checked+label>i,
+input[id="seat149"]:checked+label>i,input[id="seat150"]:checked+label>i,
+input[id="seat151"]:checked+label>i,input[id="seat152"]:checked+label>i,
+input[id="seat153"]:checked+label>i,input[id="seat154"]:checked+label>i,
+input[id="seat155"]:checked+label>i,input[id="seat156"]:checked+label>i,
+input[id="seat157"]:checked+label>i,input[id="seat158"]:checked+label>i,
+input[id="seat159"]:checked+label>i,input[id="seat160"]:checked+label>i,
+input[id="seat161"]:checked+label>i,input[id="seat162"]:checked+label>i,
+input[id="seat163"]:checked+label>i,input[id="seat164"]:checked+label>i,
+input[id="seat165"]:checked+label>i,input[id="seat166"]:checked+label>i,
+input[id="seat167"]:checked+label>i,input[id="seat168"]:checked+label>i,
+input[id="seat169"]:checked+label>i,input[id="seat170"]:checked+label>i,
+input[id="seat171"]:checked+label>i,input[id="seat172"]:checked+label>i,
+input[id="seat173"]:checked+label>i,input[id="seat174"]:checked+label>i,
+input[id="seat175"]:checked+label>i,input[id="seat176"]:checked+label>i,
+input[id="seat177"]:checked+label>i,input[id="seat178"]:checked+label>i,
+input[id="seat179"]:checked+label>i,input[id="seat180"]:checked+label>i
+{
+    display: inline-block;
+    width: .46rem;
+    height: .43rem;
+    background: url("../img/sprite_app.png");
+    background-position:-2.63rem -5.08rem ;
+    background-size: 11.02rem 6.03rem;
+}
+ul>li:nth-child(5){
+    opacity: 0;
+}
+.part_3{
+    padding: .32rem .42rem .22rem .42rem;
+    background: white;
+}
+.part_3_2{
+   padding: .34rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .01rem solid #cccccc;
+}
+.part_3_2>div{
+    text-align: center;
+    width: 1.82rem;
+    height: .84rem;
+    line-height: .84rem;
+    border: .01rem solid #cccccc;
+    font-size: 0.36rem;
+}
+.part_3_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .24rem 0;
+}
+.part_3_3>p{
+    font-size: .44rem;
+    color: #666666;
+}
+.part_3_3>div{
+    width: 4.46rem;
+    height: 1.18rem;
+    text-align: center;
+    line-height: 1.18rem;
+    border-radius: .2rem;
+    background: #f5ddb1;
+    color: white;
+    font-size: .5rem;
+}
